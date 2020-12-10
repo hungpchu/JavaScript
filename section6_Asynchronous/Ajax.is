@@ -1,0 +1,23 @@
+Ajax
+1. means async Javascript in XML
+2. is not a language, framework or library
+3. is a set of web technology to send and receive data from client and server
+4. send request to server with Ajax is faster and not requires to reload the entire web page
+
+API
+1. certain permission grant
+2. require core enabled which allows cross domain communication means client can make request to the API even not on the same domain name
+3. require authentication like oAuth
+
+XHR Object (XMLHttpRequest)
+1. core technology in Ajax
+2. API in form of Object
+3. provided by the browser JS environment
+4. Method transfer data between client and server
+5. can be used with other protocols than HTTP
+6. can work with data other than XML (JSON, plain text)
+
+library to make HTTP request
+1. Fetch API (core JS)
+2. Axios + Superagent (external)
+3. Jquery (more with DOM manipulation)

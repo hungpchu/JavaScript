@@ -1,0 +1,15 @@
+Synchronous 
+1. execute in order or blocking code 
+2. may take time or slow
+
+Asynchronous code
+0. not execute in order and faster 
+1. most aync code will be part of an API or library
+2. XMLHttpRequest and Fetch
+3. jQuery Ajax, Axios
+4. NodeJs module
+
+Way to handle Async code:
+1. Callback
+2. Promises
+3. Async/Await (make look like sync)
