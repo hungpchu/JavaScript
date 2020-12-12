@@ -1,0 +1,44 @@
+API
+1. Application Programming Interface
+2. a contract provided by 1 piece of software
+3. consist of structured request and response
+
+REST API
+1. REST = representational state transfer
+2. relies on stateless, client-server protocol (like HTTPS)
+3. treats object on the server side as resources (store in the database) that can be created/destroyed 
+4. architectrue style for network Application
+
+Example:
+API is the messenger
+REST let user use HTTP request to format the message 
+
+HTTP request
+1. GET (get): retrieve data from a resource
+2. POST (create): Submit data to be processed to a resource
+3. PUT (update): Updated a specific resource
+4. DELETE (delete): Delete a specific resource
+
+1. HEAD: return header
+2. OPTIONS: return HTTP methods
+3. PATCH: update partial resources
+
+Endpoints
+1. URL you access to do certain things
+2. Post/Put/Delete require user to send data along with the request
+
+GET
+https://someurl.com/api/users => get all users
+https://someurl.com/api/users/1 => get 1 user
+
+POST
+https://someurl.com/api/users => add/create user
+
+PUT 
+https://someurl.com/api/users => update user
+
+DELETE
+https://someurl.com/api/users => delete user
+
+
+

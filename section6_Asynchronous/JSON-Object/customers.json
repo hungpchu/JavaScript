@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hung Chu",
+    "company": "Mutual of Omaha",
+    "phone": "805-886-9186"
+  },
+  {
+    "id": 2,
+    "name": "Hung Chu",
+    "company": "Google",
+    "phone": "805-886-9187"
+  },
+  {
+    "id": 3,
+    "name": "Hung Chu",
+    "company": "Facebook",
+    "phone": "805-886-9188"
+  }
+]
