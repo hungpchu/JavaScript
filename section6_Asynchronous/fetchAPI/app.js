@@ -27,17 +27,13 @@ function getText() {
   // fetch return Promises named response
   // mostly pass in function
   fetch("test.txt")
-    .then(function (response) {
-      //  response.text() is the promise
-      return response.text();
-    })
-    .then(function (data) {
+    //  response.text() is the promise
+    .then((response) => response.text())
+    .then((data) => {
       // data is response.text()
       document.getElementById("output").innerHTML = data;
     })
-    .catch(function (err) {
-      console.log(err);
-    });
+    .catch((err) => console.log(err));
 }
 
 // Get local JSON file data
@@ -45,11 +41,9 @@ function getJSON() {
   // fetch return Promises named response
   // mostly pass in function
   fetch("post.json")
-    .then(function (response) {
-      //  response.text() is the promise
-      return response.json();
-    })
-    .then(function (data) {
+    //  response.text() is the promise
+    .then((response) => response.json())
+    .then((data) => {
       // data is response.text()
       let output = "";
       data.forEach(function (post) {
@@ -57,9 +51,7 @@ function getJSON() {
       });
       document.getElementById("output").innerHTML = output;
     })
-    .catch(function (err) {
-      console.log(err);
-    });
+    .catch((err) => console.log(err));
 }
 
 // API: https://api.github.com/users
@@ -67,11 +59,9 @@ function getExternal() {
   // fetch return Promises named response
   // mostly pass in function
   fetch("https://api.github.com/users")
-    .then(function (response) {
-      //  response.text() is the promise
-      return response.json();
-    })
-    .then(function (data) {
+    //  response.text() is the promise
+    .then((response) => response.json())
+    .then((data) => {
       // data is response.text()
       let output = "";
       data.forEach(function (user) {
@@ -79,7 +69,5 @@ function getExternal() {
       });
       document.getElementById("output").innerHTML = output;
     })
-    .catch(function (err) {
-      console.log(err);
-    });
+    .catch((err) => console.log(err));
 }
