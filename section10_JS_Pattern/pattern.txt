@@ -10,6 +10,7 @@ Pattern
 Module pattern
 1. allow developer to break code into modules so that we can have private functions and variables 
 2. ES6 introduce actual modules meanings we can use seperate files to export modules (custo piece of codes) and import them into a new files
+3. for example: angularJS
 
 Singleton
 1. variation of module pattern where we can only create 1 instance of the object
@@ -20,9 +21,12 @@ factory
 
 observer
 1. allow us to subscribe or unsubsribe to an event
+2. this is important too bro
 
 mediator 
 1. has a central mediator and colleagues to seperate off from it 
+2. for example: chat application
 
 state 
 1. have a certain state in our application and we can change that state
+2. for example: redux or reactJS
