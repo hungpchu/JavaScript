@@ -8,6 +8,7 @@ const totalPayment = document.getElementById("total-payment");
 const totalInterest = document.getElementById("total-interest");
 
 // Listen for submit
+// submit here will be triggered when button Calulate is clicked
 loanForm.addEventListener("submit", (e) => {
   // Hide results
   document.getElementById("results").style.display = "none";
