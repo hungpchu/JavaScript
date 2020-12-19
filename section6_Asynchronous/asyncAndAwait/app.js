@@ -1,6 +1,6 @@
 /*
  Async
- 1. Put before a function will make the function return promist
+ 1. Put before a function will make the function return promise
 
  Await
  1. wait the promise to be resolved until send the response 
