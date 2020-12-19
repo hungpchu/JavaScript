@@ -49,7 +49,10 @@ function getPosts() {
 
 //  using .then and pass getPosts as resolve function
 createPost({ title: "Post 3", body: "This is Post 3" }, false)
+  // in then below will pass getPosts, which act as resolve function
   .then(getPosts)
+  // in catch below will pass the function to print err, which act as
+  // reject function
   .catch(function (err) {
     //   print out the error from reject
     console.log(err);
