@@ -114,6 +114,8 @@ function clearTasks() {
 }
 
 function filterTasks(e) {
+  // document.querySelector('#filter').value is used the same with e.target.value.
+  // const inputText = document.querySelector('#filter').value.toLowerCase();
   const inputText = e.target.value.toLowerCase();
   // querySelectorAll return a node list
   const taskCollection = document.querySelectorAll(".collection-item");
