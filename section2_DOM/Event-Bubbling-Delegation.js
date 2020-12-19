@@ -5,7 +5,7 @@
 
  Event Delegation
  1. bubbling down of the event through the DOM from the parent element 
- to the child
+ to the child -> used after the html page is done loading
  */
 
 //  get the card-title class name
